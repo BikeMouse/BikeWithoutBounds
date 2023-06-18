@@ -30,7 +30,10 @@ body{
     justify-items: center;
     width:40%;
     padding: 1%;
-    border: 5px solid red;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    border-radius: 1%;
+    border: 2px solid #9ca3af;
 }
 .cardImg{
     height: 190px;
@@ -43,20 +46,19 @@ body{
 }
 .text{
     padding: 1%;
+    width: 100%;
 }
 .text h1{
     font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 0.1em;
-    width: 90%;
-    border: 5px solid blue;
+    width: 100%;
 }
 .text p{
     font-size: 1.3rem;
     letter-spacing: 0.1em;
     line-height: 25px;
-    width: 90%;
-    border: 5px solid green;
+    width: 100%;
 }
 .About{
     display: flex;
