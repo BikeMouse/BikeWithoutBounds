@@ -33,7 +33,7 @@ body{
     margin-top: 0.5%;
     margin-bottom: 0.5%;
     border-radius: 1%;
-    border: 2px solid #9ca3af;
+    border: 1px solid #9ca3af;
 }
 .cardImg{
     height: 190px;
@@ -71,20 +71,21 @@ body{
     font-weight: 700;
     letter-spacing: 0.1em;
     line-height: 20px;
-    width: 75%;
+    width: 80%;
     text-align: center;
 }
 .About p{
     font-size: 1.3rem;
     letter-spacing: 0.1em;
-    line-height: 20px;
-    width: 75%;
+    line-height: 10px;
+    width: 80%;
     text-align: center;
 }
 .foot{
     display: flex;
-    align-items:baseline;
-    justify-content:space-between;
+    justify-content: end;
+    align-content:baseline;
+    align-items: center;
     height: 60px;
     background: linear-gradient(90deg, #0f766e 1.18%, #5eead4 100%);
     padding: 1%;
